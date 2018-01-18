@@ -136,6 +136,8 @@ namespace PHPSTORM_META {
         'command.ide-helper.models' => \Barryvdh\LaravelIdeHelper\Console\ModelsCommand::class,
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'html' => \Collective\Html\HtmlBuilder::class,
+        'form' => \Collective\Html\FormBuilder::class,
         'Reliese\Coders\Model\Factory' => \Reliese\Coders\Model\Factory::class,
     ]));
     override(\Illuminate\Contracts\Container\Container::make(0), map([
@@ -266,6 +268,8 @@ namespace PHPSTORM_META {
         'command.ide-helper.models' => \Barryvdh\LaravelIdeHelper\Console\ModelsCommand::class,
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'html' => \Collective\Html\HtmlBuilder::class,
+        'form' => \Collective\Html\FormBuilder::class,
         'Reliese\Coders\Model\Factory' => \Reliese\Coders\Model\Factory::class,
     ]));
     override(\Illuminate\Contracts\Container\Container::makeWith(0), map([
@@ -396,6 +400,8 @@ namespace PHPSTORM_META {
         'command.ide-helper.models' => \Barryvdh\LaravelIdeHelper\Console\ModelsCommand::class,
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'html' => \Collective\Html\HtmlBuilder::class,
+        'form' => \Collective\Html\FormBuilder::class,
         'Reliese\Coders\Model\Factory' => \Reliese\Coders\Model\Factory::class,
     ]));
     override(\App::make(0), map([
@@ -526,6 +532,8 @@ namespace PHPSTORM_META {
         'command.ide-helper.models' => \Barryvdh\LaravelIdeHelper\Console\ModelsCommand::class,
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'html' => \Collective\Html\HtmlBuilder::class,
+        'form' => \Collective\Html\FormBuilder::class,
         'Reliese\Coders\Model\Factory' => \Reliese\Coders\Model\Factory::class,
     ]));
     override(\App::makeWith(0), map([
@@ -656,6 +664,8 @@ namespace PHPSTORM_META {
         'command.ide-helper.models' => \Barryvdh\LaravelIdeHelper\Console\ModelsCommand::class,
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'html' => \Collective\Html\HtmlBuilder::class,
+        'form' => \Collective\Html\FormBuilder::class,
         'Reliese\Coders\Model\Factory' => \Reliese\Coders\Model\Factory::class,
     ]));
     override(\app(0), map([
@@ -786,6 +796,8 @@ namespace PHPSTORM_META {
         'command.ide-helper.models' => \Barryvdh\LaravelIdeHelper\Console\ModelsCommand::class,
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'html' => \Collective\Html\HtmlBuilder::class,
+        'form' => \Collective\Html\FormBuilder::class,
         'Reliese\Coders\Model\Factory' => \Reliese\Coders\Model\Factory::class,
     ]));
     override(\resolve(0), map([
@@ -916,6 +928,8 @@ namespace PHPSTORM_META {
         'command.ide-helper.models' => \Barryvdh\LaravelIdeHelper\Console\ModelsCommand::class,
         'command.ide-helper.meta' => \Barryvdh\LaravelIdeHelper\Console\MetaCommand::class,
         'command.tinker' => \Laravel\Tinker\Console\TinkerCommand::class,
+        'html' => \Collective\Html\HtmlBuilder::class,
+        'form' => \Collective\Html\FormBuilder::class,
         'Reliese\Coders\Model\Factory' => \Reliese\Coders\Model\Factory::class,
     ]));
 

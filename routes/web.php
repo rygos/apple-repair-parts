@@ -14,3 +14,6 @@
 Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
+
+//Repair Routes
+Route::get('/repair/create/{model_id?}', 'RepairController@create')->name('rep.create');

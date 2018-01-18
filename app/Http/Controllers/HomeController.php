@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Model;
+use App\Models\Repair;
+use App\Models\Spare;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -23,6 +26,12 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $stats['models'] = Model::count();
+        $stats['repairs'] = Repair::count();
+        $stats['spares'] = Spare::count();
+
+        return view('home', [
+            'stats' => $stats,
+        ]);
     }
 }
