@@ -36,4 +36,12 @@ class StatusUpdate extends Eloquent
 		'status_id',
 		'repair_id'
 	];
+
+	public function user(){
+	    return $this->hasOne('App\Models\User', 'id', 'user_id');
+    }
+
+    public function status(){
+	    return $this->hasOne('App\Models\Status', 'id', 'status_id');
+    }
 }

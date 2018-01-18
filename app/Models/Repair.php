@@ -58,4 +58,8 @@ class Repair extends Eloquent
     public function user_assigned(){
 	    return $this->hasOne('App\Models\User', 'id', 'user_assigned_id');
     }
+
+    public function status_updates(){
+	    return $this->hasMany('App\Models\StatusUpdate', 'repair_id', 'id');
+    }
 }

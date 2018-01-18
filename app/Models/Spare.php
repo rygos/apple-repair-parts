@@ -37,4 +37,8 @@ class Spare extends Eloquent
 		'sap_desc',
 		'user_id'
 	];
+
+	public function user(){
+	    return $this->hasOne('App\Models\User', 'id', 'user_id');
+    }
 }

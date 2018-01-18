@@ -10,23 +10,20 @@ namespace App\Models\Base;
 use Reliese\Database\Eloquent\Model as Eloquent;
 
 /**
- * Class Spare
+ * Class XrelModelsSpare
  * 
  * @property int $id
- * @property string $apn_no
- * @property string $apn_desc
- * @property int $sap_no
- * @property string $sap_desc
- * @property int $user_id
+ * @property int $model_id
+ * @property int $spare_id
  * @property \Carbon\Carbon $created_at
  * @property \Carbon\Carbon $updated_at
  *
  * @package App\Models\Base
  */
-class Spare extends Eloquent
+class XrelModelsSpare extends Eloquent
 {
 	protected $casts = [
-		'sap_no' => 'int',
-		'user_id' => 'int'
+		'model_id' => 'int',
+		'spare_id' => 'int'
 	];
 }
