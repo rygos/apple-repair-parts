@@ -168,6 +168,7 @@ return [
          * Package Service Providers...
          */
         Reliese\Coders\CodersServiceProvider::class,
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
 
         /*
          * Application Service Providers...
